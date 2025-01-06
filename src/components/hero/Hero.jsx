@@ -2,7 +2,6 @@ import Lotti from "lottie-react";
 import { useRef } from "react";
 import developerAnimation from "../../animation/developer.json";
 import "./hero.css";
-import Logo from "./../../images/me.jpg";
 
 const Hero = () => {
   const lottieRef = useRef();
@@ -10,7 +9,7 @@ const Hero = () => {
     <section className="hero">
       <div className="left-section">
         <div className="parent-avatar">
-          <img src={Logo} className="avatar" alt="" />
+          <img src="/me.jpg" className="avatar" alt="" />
           <div className="icon-verified"></div>
         </div>
         <h1 className="title">
