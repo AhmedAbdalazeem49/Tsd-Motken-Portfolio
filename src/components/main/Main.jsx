@@ -23,39 +23,7 @@ const Main = () => {
             setArr(myProjects);
           }}
         >
-          All Projects
-        </button>
-        <button
-          className={currentActive === "css" ? "active" : null}
-          onClick={() => {
-            handleClick("css");
-          }}
-        >
-          HTML & CSS
-        </button>
-        <button
-          className={currentActive === "javascript" ? "active" : null}
-          onClick={() => {
-            handleClick("javascript");
-          }}
-        >
-          JavaScript
-        </button>
-        <button
-          className={currentActive === "react" ? "active" : null}
-          onClick={() => {
-            handleClick("react");
-          }}
-        >
-          React
-        </button>
-        <button
-          className={currentActive === "node" ? "active" : null}
-          onClick={() => {
-            handleClick("api");
-          }}
-        >
-          APIs
+          Projects
         </button>
       </section>
       <section className="right">

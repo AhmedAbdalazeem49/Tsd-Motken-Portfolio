@@ -54,6 +54,7 @@ main section.right .card {
   border-radius: 5px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.05));
   position: relative;
+  width: 350px;
 }
 
 .light main section.right .card {
@@ -70,13 +71,13 @@ main section.right .card:hover {
 }
 
 main section.right .card img {
-  width: 195px;
-  height: 130px;
+  width: 100%;
+  height: 220px;
   border-radius: 5px;
 }
 
 main section.right .card .box {
-  width: 195px;
+  width: 100%;
   padding: 1rem 0.4rem;
 }
 
@@ -119,7 +120,7 @@ main section.right .card .box {
 }
 
 .card a.link {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--blue);
   display: flex;
   align-items: center;
@@ -142,13 +143,5 @@ main section.right .card .box {
     width: 7rem;
     padding: 0.8rem 0;
     font-size: .9rem;
-  }
-
-  main section.right .card .box {
-    width: 250px;
-  }
-
-  main section.right .card img {
-    width: 250px;
   }
 }

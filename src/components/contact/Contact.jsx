@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
           )}
         </form>
-        <div>
+        <div className="lotti-holder">
           <Lotti
             animationData={contactAnimation}
             className="contact-animation"

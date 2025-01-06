@@ -2,7 +2,7 @@ import Lotti from "lottie-react";
 import { useRef } from "react";
 import developerAnimation from "../../animation/developer.json";
 import "./hero.css";
-import Logo from "../../images/me.jpg";
+import Logo from "./../../images/me.jpg";
 
 const Hero = () => {
   const lottieRef = useRef();
@@ -25,24 +25,20 @@ const Hero = () => {
           experiences.
         </p>
         <div className="all-icons">
-          <a
-            className="icon icon-twitter"
-            href="https://twitter.com/Abdalazeem49"
+          {/* <a
+            className="icon icon-facebook"
+            href="https://www.facebook.com/profile.php?id=61553760122838&mibextid=ZbWKwL"
             target="_blank"
-          ></a>
+          ></a> */}
+
           <a
             className="icon icon-instagram"
-            href="https://www.instagram.com/ahmedabdalazeemm/"
-            target="_blank"
-          ></a>
-          <a
-            className="icon icon-github"
-            href="https://github.com/AhmedAbdalazeem49"
+            href="https://www.instagram.com/tsdacadmey/?igsh=MWNxeGZ3dWRlc3hyeA%3D%3D"
             target="_blank"
           ></a>
           <a
             className="icon icon-linkedin-square"
-            href="https://www.linkedin.com/in/ahmed-abdalazeem-226524228/"
+            href="https://www.linkedin.com/company/tsd.com/posts/?feedView=all"
             target="_blank"
           ></a>
         </div>

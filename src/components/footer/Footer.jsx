@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>&copy; 2024 Ahmed Abdalazeem All rights reserved</p>
+      <p>&copy; 2024 TSD - Motken All rights reserved</p>
     </footer>
   );
 };
