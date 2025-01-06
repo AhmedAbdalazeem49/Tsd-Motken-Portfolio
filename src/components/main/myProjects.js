@@ -1,8 +1,9 @@
+import Saar from "/src/images/saar.jpg";
 export const myProjects = [
   {
     projectTitle: "Saar",
     category: "all",
-    imgPath: "/src/images/saar.jpg",
+    imgPath: Saar,
     projectDescription:
       "A real estate platform offering users the ability to buy or rent properties, alongside a powerful dashboard featuring HR and financial management tools for seamless business operations.",
     liveDemo: "https://saar.com.se/",
