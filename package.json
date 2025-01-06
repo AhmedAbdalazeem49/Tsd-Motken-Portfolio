@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "postinstall": "chmod -R 755 node_modules/.bin"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
